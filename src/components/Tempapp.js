@@ -34,7 +34,7 @@ const Tempapp=()=>{
            <i className="fas fa-map-marker" aria-hidden="true"><p className="cityname">{search}</p></i>
            </h2>
          <h1 className="temp">{city.temp}°Cel</h1>
-         <h3 className="tempmin_max">{city.temp_min}°Cel | {city.temp_max}°Cel </h3>
+         <h3 className="tempmin_max">min: {city.temp_min}°Cel | max: {city.temp_max}°Cel </h3>
            
        </div>
        <div className="wave-one"> </div>
