@@ -14,8 +14,9 @@ body {
     align-items: center;
     flex-wrap: wrap;
     height: 100vh;
-    width: 120vw;
+    width: 100vw;
     font-family: "Jost", sans-serif;
+    
 }
 
 html {
@@ -36,7 +37,6 @@ html {
     transform: translate3d(0, 0, 0);
     min-width: 20rem;
     border:solid 2.5px rgb(44, 125, 238)  ; 
-
     min-height: 35rem;
 }
 
